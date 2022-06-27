@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="328sp"
+        android:layout_height="117sp"
+        android:layout_margin="16dp"
+        android:background="@color/cardBackground"
+        android:backgroundTint="@color/cardBackground"
+        android:elevation="@dimen/elevationZero"
+        app:cardCornerRadius="@dimen/cardRadius"
+        app:cardElevation="@dimen/elevationZero">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/innerCardMargin"
+            android:layout_marginTop="@dimen/innerCardMargin"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/profileImageRadius">
+
+                <ImageView
+                    android:layout_width="@dimen/profileImageSize"
+                    android:layout_height="@dimen/profileImageSize"
+                    android:src="@drawable/julian"
+                    app:cardElevation="@dimen/elevationZero" />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/profileDetailLeftMargin"
+                    android:layout_marginBottom="@dimen/profileDetailBottomMargin"
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:text="@string/profileName"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/profileNameSize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/profileDetailLeftMargin"
+                    android:layout_marginBottom="@dimen/profileDetailBottomMargin"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:text="@string/job"
+                    android:textColor="@color/job"
+                    android:textSize="@dimen/jobSize" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/profileDetailLeftMargin"
+                    android:layout_marginBottom="@dimen/profileDetailBottomMargin"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/locationLayoutSize"
+                        android:layout_height="@dimen/locationLayoutSize"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="@dimen/locationVectorRightMargin"
+                        android:src="@drawable/ic_baseline_location_on_24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dm_sans"
+                        android:text="@string/location"
+                        android:textColor="@color/locationText"
+                        android:textSize="@dimen/locationTextSize" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="@dimen/profileDetailLeftMargin">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/dm_sans"
+                        android:text="@string/reviewers"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/reviewsNumberSize" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/reviewsMarginLeft"
+                        android:fontFamily="@font/dm_sans_medium"
+                        android:text="@string/starRate"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/reviewSize" />
+
+                    <ImageView
+                        android:layout_width="@dimen/starSize"
+                        android:layout_height="@dimen/starSize"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/starMarginLeft"
+                        android:src="@drawable/ic_baseline_star_24" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cardRightLayoutDetailStartMargin"
+                android:layout_marginEnd="@dimen/cardRightLayoutDetailEndMargin"
+                android:gravity="end"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/hoursBottomMargin"
+                    android:background="@drawable/hour_background"
+                    android:elevation="@dimen/elevationZero"
+                    android:fontFamily="@font/dm_sans"
+                    android:paddingHorizontal="@dimen/hoursHorizontalPadding"
+                    android:paddingVertical="@dimen/hoursVerticalPadding"
+                    android:text="@string/hours"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/hoursSize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/nationalityBottomMargin"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:text="@string/nationality"
+                    android:textColor="@color/nationality"
+                    android:textSize="@dimen/nationalitySize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans"
+                    android:gravity="end"
+                    android:text="@string/availability"
+                    android:textColor="@color/availability"
+                    android:textSize="@dimen/availabilitySize" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

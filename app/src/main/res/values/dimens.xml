@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardRadius">8dp</dimen>
+    <dimen name="innerCardMargin">12sp</dimen>
+    <dimen name="profileImageRadius">8dp</dimen>
+    <dimen name="profileDetailLeftMargin">12dp</dimen>
+    <dimen name="profileDetailBottomMargin">8dp</dimen>
+    <dimen name="profileNameSize">16sp</dimen>
+    <dimen name="reviewsNumberSize">13sp</dimen>
+    <dimen name="reviewsMarginLeft">8dp</dimen>
+    <dimen name="reviewSize">13sp</dimen>
+    <dimen name="starSize">12dp</dimen>
+    <dimen name="starMarginLeft">4dp</dimen>
+    <dimen name="cardRightLayoutDetailStartMargin">8dp</dimen>
+    <dimen name="cardRightLayoutDetailEndMargin">15dp</dimen>
+    <dimen name="hoursBottomMargin">8dp</dimen>
+    <dimen name="hoursHorizontalPadding">8dp</dimen>
+    <dimen name="hoursVerticalPadding">4dp</dimen>
+    <dimen name="hoursSize">12sp</dimen>
+    <dimen name="nationalitySize">12sp</dimen>
+    <dimen name="availabilitySize">12sp</dimen>
+    <dimen name="jobSize">12sp</dimen>
+    <dimen name="locationVectorRightMargin">4dp</dimen>
+    <dimen name="locationTextSize">13sp</dimen>
+    <dimen name="hourBackgroundRadius">100dp</dimen>
+    <dimen name="elevationZero">0dp</dimen>
+    <dimen name="profileImageSize">93dp</dimen>
+    <dimen name="locationLayoutSize">16dp</dimen>
+    <dimen name="nationalityBottomMargin">9dp</dimen>
+</resources>

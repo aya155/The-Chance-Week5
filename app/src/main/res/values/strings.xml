@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Week5-the-chance</string>
+    <string name="profileName">Ahmed hassan</string>
+    <string name="job">Engineer</string>
+    <string name="reviewers">(150 Reviews)</string>
+    <string name="location">UK</string>
+    <string name="starRate">4.5</string>
+    <string name="hours">3 hr</string>
+    <string name="nationality">Russian</string>
+    <string name="availability">5 Days ago</string>
+</resources>
